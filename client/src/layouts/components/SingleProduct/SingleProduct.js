@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./SingleProduct.scss";
+
 function SingleProduct({ productItem, addToBag }) {
   const navigation = useNavigate();
 
