@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./SingleProduct.scss";
 function SingleProduct({ productItem, addToBag }) {
   const navigation = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="product-item men">
