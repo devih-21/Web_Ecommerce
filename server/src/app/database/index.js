@@ -1,9 +1,9 @@
 const mysql = require("mysql2");
 
 const pool = mysql.createPool({
-  host: "localhost",
-  user: "namnp",
-  password: "12345678",
+  host: "namnpdb.mysql.database.azure.com",
+  user: "namnpdbserver",
+  password: "Abcd1234",
   database: "ecommerce",
   waitForConnections: true,
   connectionLimit: 10,

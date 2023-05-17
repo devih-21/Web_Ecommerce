@@ -117,12 +117,13 @@ class ProductController {
             imageLinks: rows.map((row) => {
               return {
                 name: row.imageLink,
-                thumbUrl: fs.readFileSync(
-                  `./client/src/assets/images/${row.imageLink}`,
-                  {
-                    encoding: "base64",
-                  }
-                ),
+                thumUrl: ""
+                // thumbUrl: fs.readFileSync(
+                //   `./client/src/assets/images/${row.imageLink}`,
+                //   {
+                //     encoding: "base64",
+                //   }
+                // ),
               };
             }),
           };
