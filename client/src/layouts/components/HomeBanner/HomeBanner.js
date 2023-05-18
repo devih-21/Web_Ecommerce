@@ -1,8 +1,8 @@
 import React from "react";
 
-import BackgroundImage1 from "../../../assets/images/slider_1.jpg";
-import BackgroundImage2 from "../../../assets/images/slider_2.jpg";
-import BackgroundImage3 from "../../../assets/images/slider_3.jpg";
+import BackgroundImage1 from "../../../assets/images/slider_1.webp";
+import BackgroundImage2 from "../../../assets/images/slider_2.webp";
+import BackgroundImage3 from "../../../assets/images/slider_3.webp";
 import { Carousel } from "react-bootstrap";
 import "./HomeBanner.scss";
 import { Link } from "react-router-dom";
@@ -22,7 +22,7 @@ function HomeBanner() {
             <div className="row align-items-center fill_height">
               <div className="col">
                 <div className="main_slider_content" data-aos="fade-right">
-                  <h6>Spring / Bộ sưu tập mùa hè 2023</h6>
+                  <h6>Summer / Bộ sưu tập mùa hè 2023</h6>
                   <h1>Khuyến mãi cực lớn lên đến 30%</h1>
                   <div className="red_button shop_now_button">
                     <Link to="/category/t-shirt">Mua ngay</Link>
@@ -70,7 +70,7 @@ function HomeBanner() {
             <div className="row align-items-center fill_height">
               <div className="col">
                 <div className="main_slider_content" data-aos="fade-right">
-                  <h6>Spring / Bộ sưu tập đồ đi biển 2023</h6>
+                  <h6>Beach / Bộ sưu tập đồ đi biển 2023</h6>
                   <h1>Khuyến mãi cực lớn lên đến 30%</h1>
                   <div className="red_button shop_now_button">
                     <Link to="/category/hoodie">Mua ngay</Link>
