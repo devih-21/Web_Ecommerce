@@ -19,7 +19,7 @@ function CategoryBanner() {
               data-aos="fade-right"
             >
               <div className="banner_category">
-                <Link to="/category/t-shirt">T-shirt</Link>
+                <Link to="/category/t-shirt">T-Shirt</Link>
               </div>
             </div>
           </div>
