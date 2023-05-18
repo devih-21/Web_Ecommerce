@@ -19,7 +19,7 @@ function CategoryBanner() {
               data-aos="fade-right"
             >
               <div className="banner_category">
-                <Link to="/category/t-shirt">Nữ</Link>
+                <Link to="/category/t-shirt">T-Shirt</Link>
               </div>
             </div>
           </div>
@@ -32,7 +32,7 @@ function CategoryBanner() {
               data-aos="fade-up"
             >
               <div className="banner_category">
-                <Link to="/category/sweater">Phụ Kiện</Link>
+                <Link to="/category/sweater">Sweater</Link>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ function CategoryBanner() {
               data-aos="fade-left"
             >
               <div className="banner_category">
-                <Link to="/category/hoodie">Nam</Link>
+                <Link to="/category/hoodie">Hoodie</Link>
               </div>
             </div>
           </div>
