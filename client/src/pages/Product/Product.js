@@ -115,9 +115,8 @@ function ProductPage() {
   const addToBag = async (values) => {
     setLoading(true);
 
-    const token = localStorage.getItem("token")
+    const token = localStorage.getItem("token");
     if (token) {
-
       try {
         const newValue = { ...values, productId: path, price: product.price };
         const post = await apiPrivate("/cart/createCart", "POST", newValue);
@@ -131,9 +130,8 @@ function ProductPage() {
         setLoading(false);
       }
     } else {
-      navigate("/login")
+      navigate("/login");
     }
-    
   };
 
   return (
@@ -317,7 +315,9 @@ function ProductPage() {
                     </Form.Item>
                     <label style={{ marginLeft: 12 }}>
                       Còn lại
-                      <span style={{ color: "#fe4c50" }}>{` ${quality} `}</span>
+                      <span
+                        style={{ color: "rgb(10, 104, 255)" }}
+                      >{` ${quality} `}</span>
                       sản phẩm
                     </label>
                   </Form.Item>

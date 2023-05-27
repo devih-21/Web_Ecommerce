@@ -15,7 +15,6 @@ function HomeCartView({ cart, show, showHideModal, totalPrice, handleDelete }) {
     <Modal show={show} onHide={() => showHideModal()} className="right">
       <Modal.Header closeButton>
         <Modal.Title>Giỏ hàng</Modal.Title>
-       
       </Modal.Header>
       <Modal.Body className="modal-body-content">
         <div>
@@ -73,7 +72,7 @@ function HomeCartView({ cart, show, showHideModal, totalPrice, handleDelete }) {
                   style={{ textAlign: "right", marginTop: 16, marginRight: 16 }}
                 >
                   Tổng:{" "}
-                  <span style={{ color: "#FE4C50" }}>
+                  <span style={{ color: "rgb(10, 104, 255)" }}>
                     {(totalPrice * 1)
                       .toString()
                       .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}{" "}

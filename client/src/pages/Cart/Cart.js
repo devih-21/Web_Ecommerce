@@ -134,7 +134,7 @@ function Cart() {
               >
                 <p>
                   SubTotal :{" "}
-                  <span style={{ color: "#FE4C50" }}>
+                  <span style={{ color: "rgb(10, 104, 255)" }}>
                     {" "}
                     {(totalPrice * 1)
                       .toString()
@@ -145,7 +145,7 @@ function Cart() {
 
                 <h3 style={{ textAlign: "center" }}>
                   Total:{" "}
-                  <span style={{ color: "#FE4C50" }}>
+                  <span style={{ color: "rgb(10, 104, 255)" }}>
                     {" "}
                     {(totalPrice * 1)
                       .toString()

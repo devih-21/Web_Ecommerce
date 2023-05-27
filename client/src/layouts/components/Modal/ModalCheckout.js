@@ -158,7 +158,7 @@ const ModalCheckout = ({ open, setOpen, cartSelect, totalPrice }) => {
               justifyContent: "center",
               alignItems: "center",
               marginBottom: "32px",
-              color: "#fe4c50",
+              color: "rgb(10, 104, 255)",
             }}
           >
             Checkout
@@ -170,7 +170,7 @@ const ModalCheckout = ({ open, setOpen, cartSelect, totalPrice }) => {
                 style={{
                   display: "flex",
                   alignItems: "center",
-                  color: "#fe4c50",
+                  color: "rgb(10, 104, 255)",
                   fontSize: "20px",
                 }}
               >
@@ -343,7 +343,7 @@ const ModalCheckout = ({ open, setOpen, cartSelect, totalPrice }) => {
           >
             <p>
               SubTotal :{" "}
-              <span style={{ color: "#FE4C50" }}>
+              <span style={{ color: "rgb(10, 104, 255)" }}>
                 {" "}
                 {(totalPrice * 1)
                   .toString()
@@ -352,12 +352,13 @@ const ModalCheckout = ({ open, setOpen, cartSelect, totalPrice }) => {
               </span>
             </p>
             <p>
-              Shipping : <span style={{ color: "#FE4C50" }}>25,000 đ</span>
+              Shipping :{" "}
+              <span style={{ color: "rgb(10, 104, 255)" }}>25,000 đ</span>
             </p>
 
             <h3 style={{ textAlign: "center" }}>
               Total:{" "}
-              <span style={{ color: "#FE4C50" }}>
+              <span style={{ color: "rgb(10, 104, 255)" }}>
                 {" "}
                 {(totalPrice * 1 + 25000)
                   .toString()
